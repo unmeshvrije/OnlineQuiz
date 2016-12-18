@@ -12,54 +12,54 @@
  The World Wide Web Consortium
  Mozilla
 -------------------------------------------
-3. Who is making the Web standards?
-
- Google
- Microsoft
- The World Wide Web Consortium
- Mozilla
--------------------------------------------
-4. What is the correct HTML element for inserting a line break?
+3. What is the correct HTML element for inserting a line break?
 
  <br>
  <break>
  <lb>
 -----------------------------------------------------
-5. What is the correct HTML for adding a background color?
+4. What is the correct HTML for adding a background color?
 
  <background>yellow</background>
  <body style="background-color:yellow;">
  <body bg="yellow">
 ------------------------------------------------------
-6. Choose the correct HTML element to define important text
+5. Choose the correct HTML element to define important text
 
  <b>
  <strong>
  <important>
  <i>
 -----------------------------------------------------------
-7. Choose the correct HTML element to define emphasized text
+6. Choose the correct HTML element to define emphasized text
 
  <italic>
  <i>
  <em>
 ----------------------------------------------------------
-8. What is the correct HTML for creating a hyperlink?
+7. What is the correct HTML for creating a hyperlink?
 
  <a url="http://www.w3schools.com">W3Schools.com</a>
  <a name="http://www.w3schools.com">W3Schools.com</a>
  <a>http://www.w3schools.com</a>
  <a href="http://www.w3schools.com">W3Schools</a>
 -----------------------------------------------------
-9. Which character is used to indicate an end tag?
+8. Which character is used to indicate an end tag?
 
  *
  /
  <
  ^
 ------------------------------------------------------------
-10. How can you open a link in a new tab/browser window?
+9. How can you open a link in a new tab/browser window?
 
  <a href="url" target="_blank">
  <a href="url" target="new">
  <a href="url" new>
+------------------------------------------------------------
+ 10. Each list item in an ordered or unordered list has which tag?
+
+ list tag
+ ls tag
+ li tag
+ ol tag
