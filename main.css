@@ -1,0 +1,83 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main {
+	width: 70%;
+	height:350px;
+	padding:40px;
+	margin:0 auto;
+	background-color: #ecf0f1;
+	position: relative;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.75);	
+	font-family: 'Ubuntu', sans-serif;
+}
+form {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+main form p{
+	padding: 16px 10px;
+	font-size: 34px;
+	margin-left:70px;
+}
+form div {
+	display: block;
+	margin: 10px 70px;
+}
+input {
+	margin-left:20px;
+	display: inline-block;
+}
+.button {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+position: absolute;
+bottom: -28px;
+
+}
+#next, #back {
+	background: none;
+	padding: 20px;
+	border:1px solid #FFF;
+	background-color: #3498db;
+	color:#FFF;
+	font-size: 1em;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	transition: all 0.2s ease;
+}
+#next {
+	-webkit-border-top-right-radius: 50%;
+	-webkit-border-bottom-right-radius: 50%;
+	-moz-border-radius-top-right: 50%;
+	-moz-border-radius-bottom-right: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+
+}
+#back {
+	-webkit-border-top-left-radius: 50%;
+	-webkit-border-bottom-left-radius: 50%;
+	-moz-border-radius-top-left: 50%;
+	-moz-border-radius-bottom-left: 50%;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	
+}
+#next:hover {
+	background-color: #2ecc71;
+	text-indent: 3px;
+}
+#back:hover {
+	text-indent: 3px;
+	background-color: #e74c3c;
+}
